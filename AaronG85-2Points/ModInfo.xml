@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="AaronG85 - 2 Points" />
+		<Description value="Simple modlet that increase the skill points earned per level from 1 to 2" />
+		<Author value="AaronG85" />
+		<Version value="1.0" />
+		<Website value="https://community.7daystodie.com/topic/19748-aarong85s-ultimate-rock-a19/"/>
+	</ModInfo>
+</xml>
