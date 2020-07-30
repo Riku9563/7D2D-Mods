@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+<ModInfo>
+<Name value="Skyscraper Fix"/>
+<Author value="Haidr'Gna"/>
+<Version value="1.0" compat="A19.0"/>
+<Website value=""/>
+<Description value="Fixes the skyscrapers to be compatible with more areas in a city."/>
+</ModInfo>
+</xml>

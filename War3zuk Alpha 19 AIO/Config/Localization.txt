@@ -1,0 +1,20 @@
+Key,Source,Context,Changes,English
+
+HDAeroDynamicsUpgrade,items,Item,KgNone,Aero Dynamics Upgrade,
+HDFuelSaverUpgrade,items,Item,KgNone,Fuel Saver Upgrade,
+HDHeadlightsUpgrade,items,Item,KgNone,Headlights Upgrade,
+HDTurboUpgrade,items,Item,KgNone,Turbo Upgrade,
+
+AeroDynamicsUpgradeDesc,items,weapons,New,Improves Speed through AeroDynamics.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+FuelSaverUpgradeDesc,items,weapons,New,Use 50% less Fuel on your journeys.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+HeadlightsUpgradeDesc,items,weapons,New,Brighten Up the Map with this Ultra Cool Light Addon.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+TurboUpgradeDesc,items,weapons,New,Speed Speed Speed Muhhaaaa.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+HDGSBladeDesc,items,weapons,New,The xiphos is a double-edged. one-handed Iron Age straight shortsword used by the ancient Greeks. It was a secondary battlefield weapon for the Greek armies after the dory or javelin. The classic blade was generally long. although the Spartans supposedly started to use blades as short as 35 cm around the era of the Greco-Persian Wars. The xiphos sometimes has a midrib. A diamond or lenticular in cross-section. It was generally hung from a baldric under the left arm,
+
+MrsSpBladeDesc,items,weapons,New,Greek Hoplite Sword. one-handed Iron Age straight shortsword used by the ancient Greek Women. It was a primary battlefield weapon for the Greek armies. The classic blade was generally short and light enough to be wielded,
+
+HDGSBladeDesc,items,,,Spartan Blades crafted with the Finest Metal. Just kidding its probably Blunt,

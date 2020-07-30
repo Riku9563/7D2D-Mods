@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English
+
+MadMaxMoto,items,Item,KgNone,Mad Max Moto,
+MadMaxMotoDesc,items,,,Mad Max Moto. Craft the Ultimate in Comfort.\n\nBike Model Altered By Éric Beaudon
