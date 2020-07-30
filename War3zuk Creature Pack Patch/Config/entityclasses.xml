@@ -1,0 +1,78 @@
+<configs>
+	
+	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='MoveSpeed']/@value">.85</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='MoveSpeedAggro']/@value">1.6, 1.9</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='MoveSpeedPanic']/@value">2.1</set>
+	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='HandItem']/@value">meleeHandAnimalSpider</set>
+	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalSpider01')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='base_set']/@value">450</set>	
+	
+<append xpath="/entity_classes/entity_class[@name='animalSpider01']" >
+	<property name="SizeScale" value="1.6"/>
+	<property name="CanClimbVertical" value="true"/>
+</append>
+
+<!--  <append xpath="/entity_classes/entity_class[@name='zombieNurseTemplateFeral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor01']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor02']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor03']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor04Black']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor04Black']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctorFemale01']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctorFemale02']">
+	<property name="HandItem" value="meleeHandZombieDoctor"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor01Feral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor02Feral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor03Feral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctor04BlackFeral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctorFemale01Feral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieGuppyDoctorFemale02Feral']">
+	<property name="HandItem" value="meleeHandZombieDoctorFeral"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieHazmatFemale01TSBX']">
+	<property name="HandItem" value="meleeHandZombieHazMat"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieHazmatFemale01TSBXFeral']">
+	<property name="HandItem" value="meleeHandZombieHazMatFeral"/>
+</append> -->
+
+</configs>

@@ -1,0 +1,9 @@
+<entitygroups>
+	
+	<append xpath="/entitygroups/entitygroup[@name='WildGameForest']">		
+		<entity name="animalSpider01" prob="5"/>
+		<entity name="animalSpider02" prob="5" />
+		<entity name="animalSpider03" prob="5"/>
+	</append>
+	
+</entitygroups>

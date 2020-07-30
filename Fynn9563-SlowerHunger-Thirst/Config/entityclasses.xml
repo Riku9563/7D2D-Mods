@@ -1,0 +1,16 @@
+<config>
+	<append xpath="/entity_classes/entity_class[@name='playerMale']">
+		<effect_group>		
+			<passive_effect name="WaterLossPerHealthPointGained" operation="base_set" value="0.03"/> <!-- healing damage costs you water -->
+
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value=".00555"/> <!-- water base drain, 40/hour -->
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="@_vehicleFood" tags="driving"/>
+			<passive_effect name="WaterLossPerStaminaPointGained" operation="base_set" value="0.002265"/> <!-- regening stamina costs you water -->
+
+			<passive_effect name="FoodChangeOT" operation="base_subtract" value="0.004165"/> <!-- hunger base drain, 30/hour -->
+			<passive_effect name="FoodChangeOT" operation="base_subtract" value="@_vehicleFood" tags="driving"/>
+			<passive_effect name="FoodLossPerStaminaPointGained" operation="base_set" value="0.00204"/> <!-- regening stamina costs food -->
+					
+		</effect_group>
+	</append>
+</config>
