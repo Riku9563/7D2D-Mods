@@ -19,6 +19,102 @@
 			<ingredient name="spFlagCanvas" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe> -->
-
+		<recipe name="mcCubeContainer" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>
+		<recipe name="mcCubeContainerForge" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcCubeContainerExplosive" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcCubeContainerAmo" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcCubeContainerArmors" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcCubeContainerBarter" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcCubeContainerBuilding" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcCubeContainerFood" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcCubeContainerHealth" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcCubeContainerMining" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcCubeContainerRecycle" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcCubeContainerWeapons" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<!-- Halfblock storages -->
+		<recipe name="mcHalfCubeContainer" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcHalfCubeContainerForge" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcHalfCubeContainerAmo" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcHalfCubeContainerArmors" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>				
+		<recipe name="mcHalfCubeContainerBarter" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>				
+		<recipe name="mcHalfCubeContainerBuilding" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>			
+		<recipe name="mcHalfCubeContainerExplosive" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>				
+		<recipe name="mcHalfCubeContainerFood" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>				
+		<recipe name="mcHalfCubeContainerHealth" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>				
+		<recipe name="mcHalfCubeContainerMining" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>	
+		<recipe name="mcHalfCubeContainerRecycle" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>		
+		<recipe name="mcHalfCubeContainerWeapons" count="1">
+			<ingredient name="resourceNail" count="10"/>
+			<ingredient name="resourceWood" count="12"/>			
+		</recipe>								
 	</append>
 </configs>
