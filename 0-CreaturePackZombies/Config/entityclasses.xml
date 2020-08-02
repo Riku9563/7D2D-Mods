@@ -755,13 +755,13 @@
         <property name="SizeScale" value="1"/> 
     </entity_class>
 
-<!--    <entity_class name="zombieGuppyCheerleader" extends="zombieRegularTemplate">
+    <entity_class name="zombieGuppyCheerleader" extends="zombieRegularTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
         <property name="Mesh" value="#@modfolder:Resources/zombieGuppyCheerleader.unity3d?zombieGuppyCheerleader"/>
         <property name="Faction" value="undead"/>
         <property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
         <property name="SizeScale" value="1.1"/> 
-    </entity_class> -->
+    </entity_class> 
 
     <entity_class name="zombieGuppyClot" extends="zombieRegularTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
@@ -771,13 +771,13 @@
         <property name="SizeScale" value="1.2"/> 
     </entity_class>
 
-<!--    <entity_class name="zombieGuppyHungryGeorge" extends="zombieRegularTemplate">
+    <entity_class name="zombieGuppyHungryGeorge" extends="zombieRegularTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
         <property name="Mesh" value="#@modfolder:Resources/zombieGuppyHungryGeorge.unity3d?zombieGuppyHungryGeorge"/>
         <property name="Faction" value="undead"/>
         <property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
         <property name="SizeScale" value="1"/> 
-    </entity_class> -->
+    </entity_class> 
 
     <entity_class name="zombieGuppyHungryJeff" extends="zombieRegularTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
@@ -787,13 +787,13 @@
         <property name="SizeScale" value="1"/> 
     </entity_class>
 
-<!--    <entity_class name="zombieGuppyHungryScott" extends="zombieRegularTemplate">
+    <entity_class name="zombieGuppyHungryScott" extends="zombieRegularTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
         <property name="Mesh" value="#@modfolder:Resources/zombieGuppyHungryScott.unity3d?zombieGuppyHungryScott"/>
         <property name="Faction" value="undead"/>
         <property name="PhysicsBody" value="mixamoConvertedStandardZombie"/>
         <property name="SizeScale" value="1"/> 
-    </entity_class> -->
+    </entity_class> 
 
     <entity_class name="zombieGuppyKennethClown" extends="zombieBruteTemplate">
         <property name="Tags" value="entity,cp,male,zombie,walker"/>
