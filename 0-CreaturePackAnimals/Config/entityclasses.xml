@@ -318,7 +318,7 @@
 			<property name="HasDeathAnim" value="true"/>
 			<property name="RootMotion" value="false"/>
 			<property name="RagdollOnDeathChance" value="0"/>			
-			<property name="ExperienceGain" value="130"/>
+			<property name="ExperienceGain" value="630"/>
 			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
 			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="1"/>
@@ -472,7 +472,7 @@
 			<property name="MaxViewAngle" value="360"/>
 			<property name="MaxTurnSpeed" value="190"/>      
 			<property name="HandItem" value="meleeHandAnimalDireWolf"/>
-			<property name="ExperienceGain" value="250"/>
+			<property name="ExperienceGain" value="600"/>
 			<property name="DeadBodyHitPoints" value="100"/>
 			<property name="SoundRandomTime" value="5.0"/>
 			<property name="SoundRandom" value="animalhornetroam" />
@@ -500,7 +500,7 @@
 	<property name="MaxViewAngle" value="360"/>
 	<property name="MaxTurnSpeed" value="190"/>      
 	<property name="HandItem" value="meleeHandAnimalDireWolf"/>
-	<property name="ExperienceGain" value="200"/>
+	<property name="ExperienceGain" value="700"/>
 	<property name="DeadBodyHitPoints" value="100"/>
 	<property name="SoundRandomTime" value="5.0"/>
 	<property name="SoundRandom" value="animalhornetroam" />
@@ -528,7 +528,7 @@
 			<property name="Prefab" value="NPC"/>
 			<property name="Class" value="EntityAnimalStag"/>
 			<property name="PhysicsBody" value="Goat"/>
-			<property name="ExperienceGain" value="130"/>
+			<property name="ExperienceGain" value="230"/>
 			<property name="AvatarController" value="AvatarAnimalController"/> 
 			<property name="HasRagdoll" value="true"/> 
 			<property name="HasDeathAnim" value="true"/>
@@ -577,7 +577,7 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="3"/>
 			<property name="DeadBodyHitPoints" value="200"/>
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="100"/>
+				<passive_effect name="HealthMax" operation="base_set" value="50"/>
 			</effect_group>
 		</entity_class>	
 
@@ -602,7 +602,7 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="2"/>
 			<property name="DeadBodyHitPoints" value="100"/>
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="100"/>
+				<passive_effect name="HealthMax" operation="base_set" value="50"/>
 			</effect_group>
 		</entity_class>	
 
@@ -626,7 +626,7 @@
 			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
 			<property name="DeadBodyHitPoints" value="200"/>
 			<effect_group name="Base Effects">
-				<passive_effect name="HealthMax" operation="base_set" value="200"/>
+				<passive_effect name="HealthMax" operation="base_set" value="100"/>
 			</effect_group>
 		</entity_class>		
 		
