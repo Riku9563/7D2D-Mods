@@ -1,0 +1,167 @@
+<config>
+	<remove xpath="/lootcontainers/lootgroup[@name='junk']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='garbage']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='automotive+tools+junk']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='banditsGeneral']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='10']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='12']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='15']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='36']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='37']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='46']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='66']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='67']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='69']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='117']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='16']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='19']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='74']"/>
+	<append xpath="/lootcontainers/lootgroup[@name='groupSafeLoot']">
+		<item name="meleeWpnBladeT1CandyKnife" prob="0.05" />
+		<item name="meleeWpnClubT1CandyClub" prob="0.05" />
+	</append>
+	<append xpath="/lootcontainers">
+		<lootgroup name="junk">
+			<item name="drinkJarEmpty"/>
+			<item name="drinkCanEmpty"/>
+			<item name="drugPainkillers"/>
+			<item name="resourcePaper" count="1,6" prob="0.7"/>
+			<item name="oldCash" count="1,6" prob="0.3"/>
+			<item name="resourceCloth" count="1,4"/>
+			<item group="trophyGroup"/>
+			<item name="resourceCandleStick"/>
+			<item name="resourceGunPowder" count="1,3"/>
+			<item name="resourceDoorKnob"/>
+			<item name="resourceOil" count="2,6"/>
+			<item name="resourceMetalPipe"/>
+			<item name="resourceFishingWeight" count="1,3"/>
+			<item name="resourceScrapLead" count="1,10"/>
+			<item name="resourceWood" count="1,4"/>
+			<item name="resourceGlue"/>
+			<item name="resourceNail" count="1,10"/>
+			<item name="casinoCoin" count="1,5"/>
+			<item name="resourceScrapBrass" count="40,250"/>
+			<item name="resourceFeather" count="1,5"/>
+			<item name="resourceDuctTape" count="1,3"/>
+			<item group="rottenFood"/>
+			<item group="booksAllScaled"/>
+			<item group="seeds"/>
+			<item group="groupQuestChallenge" prob="0.11"/> 	<!-- 0.06 = .23 % -->
+			<item group="groupTreasureMaps" prob="0.092"/>
+			<item name="resourceBone" count="5,10" prob="0.1"/>
+			<item name="resourceScrapPolymers" count="1,4"/>
+			<item name="resourceLockPick" count="1,4"/>
+			<item name="resourceSewingKit" count="1,2"/>
+			<item group="groupToolsT3" prob="0.01"/>
+			<item group="groupTreasureMaps" prob="0.01"/>
+			<item group="medicine" prob="0.01"/>
+			<item group="groupSafeLoot" prob="0.01"/>
+			<item group="groupHeroChestLoot" prob="0.08"/>			
+			<item name="apparelSuperMegaNerdGlasses" prob=".05"/>
+			<item name="apparelSuperMegaLuckyAviatorGoggles" prob=".05"/>			
+		</lootgroup>	
+		<lootgroup name="garbage">
+			<item group="junk"/>
+		</lootgroup>		
+		<lootgroup name="automotive+tools+junk">
+			<item group="junk" prob="1"/>
+			<item group="automotive" prob="0.21"/>
+			<item group="groupToolsTiered" prob="0.21"/>
+		</lootgroup>		
+		<lootgroup name="banditsGeneral">
+			<item group="groupArmorScaled" prob="3"/>
+			<item group="medicine"/>
+			<item group="cannedfood"/>
+			<item group="rottenFood"/>
+			<item group="junk"/>
+			<item name="drinkJarBoiledWater" count="1,3"/>
+			<item group="groupApparelClothes"/>
+			<item name="apparelFacialPiercings" prob="0.1"/>
+			<item name="resourceLockPick" count="2,8"/>
+		</lootgroup>	
+<!-- garbage, cntTrashPile -->
+<lootcontainer id="10" count="0,2" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+<!-- POI storage box that looks like the player-built one -->
+<lootcontainer id="12" count="0,2" size="6,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item group="groupAmmoRegular"/>
+	<item group="booksAllScaled" prob="0.1"/>
+	<item group="dyes" prob="0.08"/>
+	<item name="meleeToolPaintTool" prob="0.04"/>
+</lootcontainer>
+		<!-- misc storage, cardboard boxes-->
+<lootcontainer id="15" count="0,2" size="6,3" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item group="groupAmmoRegular"/>
+	<item group="booksAllScaled" prob="0.1"/>
+	<item group="dyes" prob="0.08"/>
+	<item name="meleeToolPaintTool" prob="0.05"/>
+</lootcontainer>
+<!-- suitcase / luggage -->
+<lootcontainer id="36" count="0,2" size="6,2" sound_open="UseActions/open_suitcase" sound_close="UseActions/close_suitcase" loot_quality_template="qualBaseTemplate">
+	<item name="drinkJarBoiledWater" count="1,2" prob="0.15"/>
+	<item group="cannedfood" prob="0.5"/>
+	<item group="junk"/>
+	<item name="meleeToolFlashlight02" prob="0.1"/>
+	<item group="medicine" prob="0.1"/>
+	<item group="groupWeaponsAllScaled" prob="0.06"/>
+	<item group="groupAmmoRegular"/>
+	<item group="groupArmorScaled" prob="0.1"/>
+	<item group="groupApparelClothes" prob="2"/>
+	<item name="resourceSewingKit" prob="0.2"/>
+</lootcontainer>
+<!-- Bath tub filled with... don't ask. -->
+<lootcontainer id="37" count="1,2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate">
+	<item name="foodRottingFlesh" count="4,10" prob="5"/>
+	<item name="resourceBone" count="10,25" prob="2"/>
+	<item name="resourceCloth" count="1,3"/>
+	<item name="resourceBulletCasing"/>
+	<item group="junk"/>
+</lootcontainer>
+<!-- trash compactor, trash deluxe! -->
+<lootcontainer id="46" count="1,2" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+	<item group="junk" prob="10"/>
+	<item group="groupApparelClothes"/>
+	<item group="cannedfood"/>
+	<item group="beverages"/>
+</lootcontainer>
+<lootcontainer id="66" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+<!-- cntMorticianDrawer -->
+<lootcontainer id="67" count="1,2" size="6,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item name="foodRottingFlesh" count="1,2" prob="2"/>
+	<item name="resourceBone" count="10,25" prob="1"/>
+	<item group="junk"/>
+	<item group="booksAllScaled" prob="0.1"/>
+	<item name="resourceGoldNugget" prob="0.05"/>
+</lootcontainer>
+<!-- cntGreenDrawer -->
+<lootcontainer id="69" count="0,2" size="6,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+</lootcontainer>
+<!-- cntUtilityCartFull-->
+<lootcontainer id="117" count="1,2" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="qualBaseTemplate">
+	<item group="junk"/>
+	<item name="resourceAcid" count="1,2" prob=".07"/>
+</lootcontainer>
+<!-- metal garbage can-->
+<lootcontainer id="16" count="0,2" size="6,2" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan" loot_quality_template="qualBaseTemplate">
+	<item group="garbage"/>
+</lootcontainer>
+<!-- cars-->
+<lootcontainer id="19" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualBaseTemplate">
+	<item group="automotive+tools+junk" count="1,3"/>
+</lootcontainer>
+<!-- EntityLootContainerBandit -->
+<lootcontainer id="74" count="1,2" size="6,3" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+<!-- bandit melee -->
+	<item group="banditsGeneral"/>
+	<item name="meleeWpnClubT0WoodenClub" prob="0.7"/>
+<!-- bandit ranged -->
+	<item group="banditsGeneral"/>
+</lootcontainer>
+	</append>
+</config>

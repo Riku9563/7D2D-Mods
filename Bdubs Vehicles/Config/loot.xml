@@ -108,7 +108,14 @@
 			<item name="vehicleUH60chassis"/>
 			<item name="vehicleUH60accessories"/>
 		</lootgroup>
-	
+
+		<lootgroup name="Modsgroup">
+			<item name="AeroDynamicsUpgrade"/>
+			<item name="FuelSaverUpgrade"/>
+			<item name="HeadlightsUpgrade"/>
+			<item name="TurboUpgrade"/>			
+		</lootgroup>
+		
 	</insertBefore>
 
 
@@ -132,6 +139,7 @@
 		<item group="Junkergroup" loot_prob_template="probTemplate0.60"/>
 		<item group="SHERPgroup" loot_prob_template="probTemplate0.45"/>
 		<item group="UH60group" loot_prob_template="probTemplate0.35"/>
+		<item group="Modsgroup" loot_prob_template="probTemplate0.60"/>		
 	</append>
 
 
