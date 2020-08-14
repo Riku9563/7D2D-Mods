@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- Increase Range of Charasmatic Nature -->
+	<set xpath="/progression/perks/perk[@name='perkCharismaticNature']/effect_group/triggered_effect/@range">100</set>
+	<!-- Add 5th tier to Charasmatic Nature -->
+	<set xpath="/progression/perks/perk[@name='perkCharismaticNature']/@max_level">5</set>
+	<insertAfter xpath="/progression/perks/perk[@name='perkCharismaticNature']/effect_group/triggered_effect[@value='4']">
+		<triggered_effect trigger="onSelfProgressionUpdate" action="ModifyCVar" cvar="CharismaticNatureLevel" operation="set" value="5" target="selfAOE" target_tags="ally,party" range="100">
+			<requirement name="ProgressionLevel" progression_name="perkCharismaticNature" operation="GTE" value="5"/>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" target="other" operation="LT" value="5"/>
+		</triggered_effect>
+	</insertAfter>
+</configs>

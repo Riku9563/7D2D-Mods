@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- Charasmatic Nature Mod -->
+	<remove xpath="/buffs/buff[@name='buffPerkCharismaticNature']"/>
+	<insertAfter xpath="/buffs/buff[@name='buffDeadEye']">
+	<buff name="buffPerkCharismaticNature" name_key="perkCharismaticNatureName" description_key="buffPerkCharismaticNatureDesc" icon="ui_game_symbol_talk" icon_color="0,255,0" icon_blink="false" hidden="false">
+		<stack_type value="replace"/>
+		<duration value="300"/>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="1"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.2"/>
+			<passive_effect name="StaminaMax" operation="base_add" value="20"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
+			<passive_effect name="BlockDamage" operation="perc_add" value=".2" tags="melee"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="3"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".2"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value=".2"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="4"/>
+			<passive_effect name="HealthLoss" operation="perc_add" value="-.2"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="5"/>
+			<passive_effect name="AttributeLevel" operation="base_add" value="1"/>
+		</effect_group>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStack" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" buff="buffPerkAbilityUpdate"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="CharismaticNatureLevel" operation="set" value="0"/>
+		</effect_group>
+	</buff>
+	</insertAfter>
+</configs>

@@ -1,0 +1,101 @@
+<config>
+
+<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='hornSound']/@value">fynn4x4truckHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hornSound']/@value">fynnbicycleHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleBoxTruckPlain']/property[@name='hornSound']/@value">fynnboxtruckHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleBoxTruckHostess']/property[@name='hornSound']/@value">fynnboxtruckHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleBRDM2']/property[@name='hornSound']/@value">fynnbrdm2Horn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleBRDM2desert']/property[@name='hornSound']/@value">fynnbrdm2Horn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerblack']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerblack2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerorange']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerorange2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargeryellow']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargeryellow2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargergreen']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargergreen2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerteal']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerteal2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerrust']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleChargerrust2']/property[@name='hornSound']/@value">fynnchargerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleCruiser']/property[@name='hornSound']/@value">fynncruiserHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleCruiser2']/property[@name='hornSound']/@value">fynncruiserHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleDirtBike']/property[@name='hornSound']/@value">fynndirtbikeHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleDuster']/property[@name='hornSound']/@value">fynndusterHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleGNXBlack']/property[@name='hornSound']/@value">fynnbuickgmxHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleGNXRed']/property[@name='hornSound']/@value">fynnbuickgmxHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleGolfCart']/property[@name='hornSound']/@value">fynngolfcartHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleJunker']/property[@name='hornSound']/@value">fynnjunkerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleJunker2']/property[@name='hornSound']/@value">fynnjunkerHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMarauder']/property[@name='hornSound']/@value">fynnmarauderHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMD500']/property[@name='hornSound']/@value">fynnmd500Horn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMRAP']/property[@name='hornSound']/@value">fynnmrapHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleNova']/property[@name='hornSound']/@value">fynnnovaHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleNovared']/property[@name='hornSound']/@value">fynnnovaHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleNovablack']/property[@name='hornSound']/@value">fynnnovaHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehiclePickup']/property[@name='hornSound']/@value">fynnpickupHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleRat']/property[@name='hornSound']/@value">fynnratHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleRat2']/property[@name='hornSound']/@value">fynnratHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleSHERP']/property[@name='hornSound']/@value">fynnsherpHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleStalliongreen']/property[@name='hornSound']/@value">fynnstallionHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleStallionred']/property[@name='hornSound']/@value">fynnstallionHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleStallionblue']/property[@name='hornSound']/@value">fynnstallionHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleStallionwhite']/property[@name='hornSound']/@value">fynnstallionHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleUAZ452']/property[@name='hornSound']/@value">fynnuaz452Horn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleUH60']/property[@name='hornSound']/@value">fynnuh60Horn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleWillyJeep']/property[@name='hornSound']/@value">fynnwillyjeepHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleWillyJeepTopless']/property[@name='hornSound']/@value">fynnwillyjeepHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleWorkTruck']/property[@name='hornSound']/@value">fynnworktruckHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hornSound']/@value">fynnminibikeHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hornSound']/@value">fynnmotorcycleHorn</set>
+
+<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='hornSound']/@value">fynngyrocopterHorn</set>
+
+</config>

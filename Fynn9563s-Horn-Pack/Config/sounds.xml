@@ -1,0 +1,167 @@
+<config>
+<append xpath="/Sounds">
+
+<SoundDataNode name="fynn4x4truckHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?4x4-truck-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnbicycleHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?bicycle_horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnboxtruckHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?box-truck-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnbrdm2Horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?BRDM2-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="2.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnbuickgmxHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?buick-gmx-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnchargerHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="4" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?charger-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="3.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynncruiserHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="5" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?cruiser-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynndirtbikeHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="5" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?dirtbike-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynndusterHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?duster-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynngolfcartHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?golfcart-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynngyrocopterHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?gyrocopter-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnjunkerHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?junker-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnmarauderHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?marauder-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="2.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnmd500Horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?md500-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnminibikeHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?minibike-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnmotorcycleHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?motorcycle-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="MadMaxMoto"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?motorcycle-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnmrapHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?mrap-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnnovaHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?nova-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnpickupHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?pickup-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnratHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?rat-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnsherpHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?sherp-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnstallionHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?stallion-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnuaz452Horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?uaz452-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnuh60Horn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?uh60-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnwillyjeepHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?willyjeep-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+<SoundDataNode name="fynnworktruckHorn"> <AudioSource name="Sounds/AudioSource_SmallHorn"/>
+	<Noise ID="6" range="30" volume="60" time="3" heat_map_strength="0.2" heat_map_time="90"/>
+	<AudioClip ClipName="#@modfolder:Resources/hornsounds.unity3d?worktruck-horn"/>
+    <LocalCrouchVolumeScale value="1.0"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="3"/> <MaxEntities name="6"/> <MaxRepeatRate value="1.00"/> 
+</SoundDataNode>
+
+</append>
+</config>

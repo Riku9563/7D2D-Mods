@@ -1,0 +1,11 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+perkCharismaticNatureRank1Desc,progression,perk Int,New,Inspiration,,,,,
+perkCharismaticNatureRank1LongDesc,progression,perk Int,New,People get inspired when you are near them. Nearby Allies gain 20 stamina and 20% stamina regeneration.,,,,,
+perkCharismaticNatureRank2Desc,progression,perk Int,New,Leader,,,,,
+perkCharismaticNatureRank2LongDesc,progression,perk Int,New,You are a natural leader and inspire those around you. Block and Melee Damage are increased by 20%.,,,,,
+perkCharismaticNatureRank3Desc,progression,perk Int,New,Drill Seargent,,,,,
+perkCharismaticNatureRank3LongDesc,progression,perk Int,New,The better part of you ran down your momma's leg! Allies run and reload 20% faster.,,
+perkCharismaticNatureRank4Desc,progression,perk Int,New,Commander,,,,,
+perkCharismaticNatureRank4LongDesc,progression,perk Int,New,Dammit! Don't you die on me. Sir Yes Sir. Nearby allies gain 20% damage mitigation.,,,,,
+perkCharismaticNatureRank5Desc,progression,perk Int,New,Muy Guapo,,,,,
+perkCharismaticNatureRank5LongDesc,progression,perk Int,New,Allies are so enamored with you they get +1 to all attributes.,,,,,
