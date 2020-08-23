@@ -4,7 +4,6 @@
 	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='MoveSpeedAggro']/@value">1.6, 1.9</set>
 	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='MoveSpeedPanic']/@value">2.1</set>
 	<set xpath="/entity_classes/entity_class[@name='animalSpider01']/property[@name='HandItem']/@value">meleeHandAnimalSpider</set>
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalSpider01')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='base_set']/@value">450</set>	
 	
 <append xpath="/entity_classes/entity_class[@name='animalSpider01']" >
 	<property name="SizeScale" value="1.6"/>
