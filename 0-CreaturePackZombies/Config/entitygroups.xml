@@ -151,9 +151,7 @@
 		<entity name="zombieRekt" prob=".3" />
         <entity name="zombieHugh" prob=".3"/>
 		<entity name="zombieWhiteClown" prob=".3"/>
-		<entity name="zombieGuppyCheerleader" prob=".3"/>		
 		<entity name="zombieGirl" prob=".3" />
-		<entity name="zombieGuppyAlma" prob=".3" />
         <entity name="zombieGuppyBaldCop" prob=".3"/>
 		<entity name="zombieGuppyBaldMan" prob=".3"/>
 		<entity name="zombieGuppyBeatCop" prob=".3" />
@@ -161,8 +159,6 @@
         <entity name="zombieGuppyCarmela" prob=".3"/>
 		<entity name="zombieGuppyClot" prob=".3"/>
 		<entity name="zombieGuppyHungryJeff" prob=".3" />
-		<entity name="zombieGuppyHungryGeorge" prob=".3" />
-		<entity name="zombieGuppyHungryScott" prob=".3" />
 		<entity name="zombieGuppyLucy" prob=".3" />
         <entity name="zombieGuppyNurse" prob=".3"/>
 		<entity name="zombieGuppyOldManZombie" prob=".3"/>
@@ -170,6 +166,7 @@
 		<entity name="zombieGuppyPoliceRalph" prob=".3" />
         <entity name="zombieGuppySeth" prob=".3"/>
 		<entity name="zombieGuppyGermanCosplay" prob=".3"/>
+		<entity name="zombieMalacayFCiv01" prob=".3"/>
     </append> 
 	
 	<append xpath="/entitygroups/entitygroup[descendant::entity[@name='zombieFemaleTutorialFeral' and @prob='.15']]">

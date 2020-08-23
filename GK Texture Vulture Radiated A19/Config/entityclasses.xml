@@ -1,0 +1,7 @@
+<config>
+    
+	<append xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']">
+		<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
+	</append>	
+
+</config>

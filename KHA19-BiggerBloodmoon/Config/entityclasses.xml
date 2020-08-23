@@ -2133,5 +2133,101 @@
 				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 			</effect_group>
 		</entity_class>
+		
+		<entity_class name="animalZombieVultureBM" extends="animalZombieVulture">
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="120"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class>
+		
+		<entity_class name="animalZombieVultureBMRadiated" extends="animalZombieVultureRadiated">
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="240"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class>
+
+		<entity_class name="animalGuppyInsectBM" extends="animalGuppyInsect">
+			<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="120"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>
+			<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+            <drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="2"/> 
+            <drop event="Harvest" name="foodHoney" tag="butcherHarvest" count="2"/>			
+		</entity_class> 
+		
+		<entity_class name="animalGuppyInsectBMRadiated" extends="animalGuppyInsectBM">
+			<property name="Tags" value="entity,animal,zombie,hostile,feral,radiated"/>
+			<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
+			
+			<property name="AITask-1" value=""/>
+			<property name="AITarget-1" value=""/>
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="240"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+			<drop event="Harvest" name="foodRottingFlesh" count="0" tool_category="Butcher"/>
+            <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="4"/> 
+            <drop event="Harvest" name="foodHoney" tag="butcherHarvest" count="4"/>				
+		</entity_class> 		
+		
+		<entity_class name="animalSpider01BM" extends="animalSpider01">
+			<property name="Tags" value="entity,cp,animal,perkAT05,animalSpider01"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="450"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class> 	
+
+		<entity_class name="animalSpider02BM" extends="animalSpider02">
+			<property name="Tags" value="entity,cp,animal,perkAT05,animalSpider01"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="450"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class> 	
+
+		<entity_class name="animalSpider03BM" extends="animalSpider03">
+			<property name="Tags" value="entity,cp,animal,perkAT05,animalSpider01"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="450"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class> 
+
+		<entity_class name="zombieBehemothBM" extends="zombieBehemoth">
+			<property name="Tags" value="entity,cp,animal,perkAT05,animalSpider01"/>
+			<property name="AITask-1" value="BreakBlock"/>
+			<property name="AITask-2" value="DestroyArea"/>
+			<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/> <!-- class,maxChaseTime (return home) -->
+			<property name="AITarget-1" value="BlockingTargetTask"/>
+			<property name="AITarget-2" value="SetNearestCorpseAsTarget" data="class=EntityPlayer"/>
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="3500"/>
+				<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
+			</effect_group>			
+		</entity_class> 
+		
 	</append>
 </config>
